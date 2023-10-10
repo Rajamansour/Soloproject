@@ -1,0 +1,177 @@
+body{
+  background-image: url('https://img.freepik.com/free-photo/blue-brushstrokes-background_125540-809.jpg?size=626&ext=jpg&ga=GA1.1.179879330.1695558300&semt=ais');
+}
+
+img {
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+  box-shadow: 0px 6px 20px rgba(0, 0,0, 2);
+  border: 1px solid black;
+  transition: 0.7 ease;
+}
+.img:hover {
+  transform: scale(1.1)}
+
+.select{
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+    gap: 30px ;
+    
+}
+
+#select{
+  border: solid 1.5px #9e9e9e;
+  border-radius: 1rem ;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: b#091442; 
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  text-align: center;
+ background-color:#83b1f7;
+ font-family: 'Dela Gothic One', cursive;
+
+}
+.Logo{
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+.Logo:hover {
+  transform: scale(1.2)}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+#team {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px;
+ ;
+}
+
+#club{
+  background-color: #6594C0;
+
+}
+#topic {
+  font-size: 70px;
+  font-weight: 500;
+  color: #0e1e5b;
+  text-align: center;
+  top: 150px;
+  left: 500px;
+  background-color: #97baef;
+  background: linear-gradient(to right, #6321b4, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: #79d0f5;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+#topic:hover {
+  transform: scale(0.9)}
+
+
+
+header {
+  background-color: #83b1f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: azure;
+  text-transform: uppercase;
+}
+body {
+  margin: 0;
+}
+
+.remove {
+  color: #172c4c;
+  padding:  10px 20px;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid #ffffff80 ;
+  transition: .5s ease;
+   background-color: #83b1f7;
+   font-family: 'Dela Gothic One', cursive;
+
+}
+
+.remove:hover,:focus {
+  background: #00eeff;
+  border: 1px solid #00e1ff;
+  text-shadow: 0 0 5px #ffffff,
+  0 0 10px #ffffff,
+  0 0 20px #ffffff;
+  box-shadow: 0 0 5px #00e1ff,
+  0 0 20px #00e1ff,
+  0 0 50px #00e1ff,
+  0 0 100px #00e1ff;
+
+}
+
+ .input-group {
+  position: relative;
+}
+.input {
+  border: solid 1.5px #9e9e9e;
+  border-radius: 1rem ;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black; 
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  text-align: center;
+ background-color:#83b1f7;}
+
+  .user-label {
+    position: absolute;
+    left: 15px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+    font-family: 'Dela Gothic One', cursive
+    
+  }
+
+  .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #1a73e8;
+  }
+
+  .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%)scale(0,8);
+    background-color: #212121;
+    padding: 0 .2em;
+    color: #2196f3;
+  } 
+
+#bts{
+  border: solid 1.5px #9e9e9e;
+  border-radius: 1rem ;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black; 
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  background-color: #83b1f7;
+  font-family: 'Dela Gothic One', cursive;
+}
+
+
+
